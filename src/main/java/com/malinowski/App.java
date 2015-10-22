@@ -1,6 +1,7 @@
 package com.malinowski;
 
 import com.malinowski.providers.EmailServiceProvider;
+import com.malinowski.providers.MailGunProvider;
 import com.malinowski.providers.MandrillProvider;
 import com.malinowski.requestsHandler.EmailRequestsHandler;
 

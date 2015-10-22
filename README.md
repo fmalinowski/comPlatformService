@@ -17,12 +17,13 @@ The JSON object has to include the following parameters:
 
 This application has been built with the Apache Maven software project management tool. It can be found here: https://maven.apache.org
 
+Please modify the API keys and API urls for the MailGun and Mandrill Providers in the constants `API_URL` and `API_KEY` placed at the top of the classes `MailGunProvider` and `MandrillProvider`.
+
 To compile the project, run the following maven command: `mvn package`.
 This will run the test suite and compile the application into a JAR file in the target folder.
 To avoid running the tests when compiling the project, type the command: `mvn package -DskipTests=true`
 
 To run the service, type the following command in your terminal: `java -cp ./target/com-platform-app-1.0-SNAPSHOT-jar-with-dependencies.jar com.malinowski.App`
-
 
 ## Language used and microframeworks
 
